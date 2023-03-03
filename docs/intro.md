@@ -22,36 +22,32 @@ Or **try cloning our demo repository** with **[demo.minThreeD](https://docusauru
 Generate a new minThreeD scene with the **ThreeDViewer** instance.
 Import ThreeDViewer Class from minThreeD.js
 ```bash
-import {ThreeDViewer} from "../lib/minThreeD.js";
+import {ThreeDViewer} from "minthreed";
 ```
 
 The following lines will let you start a demo scene in minThreeD:
 
-```bash
+```js
 //Output HTMLElement
 const canvas = document.querySelector(".canvas") as HTMLElement;
 
 const viewer = new ThreeDViewer(70, {width:canvas.clientWidth, height:canvas.clientHeight}, canvas);
-viewer.addObj(); // Adds a Demo Object
-viewer.start(true); //Starts the scene with auto-resize
+
+viewer.addObj({name:"sample",type:"url", data:"box.svg"});
+viewer.start(true);
 ```
-The `addObj` by default adds the demo object. The user can change the parameters to add your own objects.
+`ThreeDViewer` is a class that lets the user create a scene and render it out to a particular HTMLElement.
+The `addObj` is used to add objects to scene.
+The `start` function runs the scene and if its called with `true` the autoresize is enabled. You can read more about them in the later modules.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Make it 3D
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Add the `ThreeDControls` instance:
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```js
+import {ThreeDControls} from "minthreed";
+const controls = new ThreeDControls(viewer);
+controls.enable(true);
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+After generating the scene, try out the following code to make the object 3D. You can freely rotate, pan and zoom the object.
+`ThreeDControls` Class lets you add controls to the objects in the `viewer`. More on it on the way.
