@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmin_three=self.webpackChunkmin_three||[]).push([[8018],{4108:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/minthree.io/blog/tags/hello","allTagsPath":"/minthree.io/blog/tags","count":2}')}}]);
