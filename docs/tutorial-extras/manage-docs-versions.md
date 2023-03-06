@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# MinthreeD with Angular
 
 Docusaurus can manage multiple versions of your docs.
 

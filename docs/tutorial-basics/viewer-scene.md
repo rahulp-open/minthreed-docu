@@ -26,6 +26,8 @@ Here `canvas` is the output element. `fov` value is similar to zoom in mm value 
 `res` can be set to `clientWidth` and `clientHeight` to get better results or you can have a fixed size by passing constant values.
 You can tweak the `campos` inorder to adjust the camera position on initialization or you can set it to default and later use `setCamera` to change camera position.
 
+Now check out [Viewer Objects](/docs/tutorial-basics/viewer-objects.md) to add objects to the scene.
+
 :::danger Take care
 
 Make sure the HTMLElement is properly linked otherwise the it will cause errors.
@@ -63,7 +65,11 @@ viewer.setCameraPos(100,100,200);
 
 ## Start the Scene
 
-After adding the objects (refer #)
+After adding the objects (refer [Viewer Objects](/docs/tutorial-basics/viewer-objects)) to render the output we have to start the animation. Run `ThreeDViewer.start()` to render the scene.
+
+```js
+viewer.start();
+```
 
 ### Responsive Viewer 
 
@@ -73,5 +79,3 @@ To enable this run `ThreeDViewer.start()` with true as parameter.
 ```js
 viewer.start(true);
 ```
-
-### Animate

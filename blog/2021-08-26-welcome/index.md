@@ -1,7 +1,7 @@
 ---
 slug: about
 title: About
-authors: [rahulprdp, yangshun]
+authors: [rahulprdp]
 tags: [facebook, hello, docusaurus]
 ---
 
