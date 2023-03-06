@@ -9,7 +9,7 @@ const FeatureList = [
     description: (
       <>
         minThreeD was made to make creating 3D web elements as simplified as possible.
-        The true potential comes live when you combine various objects.
+        The true potential comes live when you combine various objects and controls.
       </>
     ),
   },
@@ -18,7 +18,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-       minThreeD lets you focus on things which actually matter and hides all unwanted code and redundant code.
+       minThreeD lets you focus on things which actually matter and hides all unwanted code and redundant code. 
+       No 3d modeling knowledge required.
       </>
     ),
   },

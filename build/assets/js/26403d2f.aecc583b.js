@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmin_three=self.webpackChunkmin_three||[]).push([[8301],{6879:e=>{e.exports=JSON.parse('{"permalink":"/minthree.io/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

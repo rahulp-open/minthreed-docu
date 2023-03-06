@@ -8,13 +8,13 @@ Let's discover **minThreeD in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a HTML Page**.
+Get started by **creating a HTML Page** and link a JavaScript file to it.
 
 Or **try cloning our demo repository** with **[demo.minThreeD](https://docusaurus.new)**.
 
 ### What you'll need
 
-- [minThreeD](https://nodejs.org/en/download/) version 1.0.2 or above:
+- [minThreeD](https://nodejs.org/en/download/) version 1.0.0 or above:
   - Download from above and import it.
 
 ## Generate a new scene

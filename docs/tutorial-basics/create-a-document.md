@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# minthreed Objects
 
 Documents are **groups of pages** connected through:
 
@@ -49,7 +49,7 @@ module.exports = {
     'hello',
     {
       type: 'category',
-      label: 'Tutorial',
+      label: 'Docs',
       items: ['tutorial-basics/create-a-document'],
     },
   ],
