@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmin_three=self.webpackChunkmin_three||[]).push([[649],{5173:e=>{e.exports=JSON.parse('{"permalink":"/minthreed-docu/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
