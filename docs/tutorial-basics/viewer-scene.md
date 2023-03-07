@@ -18,6 +18,7 @@ Constructor - **ThreeDViewer(fov,res,out,campos)**
 After importing the **minthreed** library
 
 ```js
+import {ThreeDViewer} from "minthreed";
 const canvas = document.querySelector(".canvas") as HTMLElement;
 
 const viewer = new ThreeDViewer(70, {width:canvas.clientWidth, height:canvas.clientHeight}, canvas);
