@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/minthreelogo.png',
 
   // Set the production url of your site here
-  url: 'https://docusaurus.io',
+  url: 'https://rahulp-open.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rahulp-open', // Usually your GitHub org/user name.
-  projectName: 'minthreed.io', // Usually your repo name.
+  projectName: 'minthreed-docu', // Usually your repo name.
+  deploymentBranch : 'deploy',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
