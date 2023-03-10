@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmin_three=self.webpackChunkmin_three||[]).push([[7248],{3239:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/minthreed-docu/blog/tags/hello","allTagsPath":"/minthreed-docu/blog/tags","count":2}')}}]);
