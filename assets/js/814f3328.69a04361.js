@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmin_three=self.webpackChunkmin_three||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Git Hub Example","permalink":"/minthreed-docu/blog/git-hub"},{"title":"About","permalink":"/minthreed-docu/blog/about"}]}')}}]);
