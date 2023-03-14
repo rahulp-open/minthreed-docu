@@ -27,10 +27,19 @@ This will get improved in the future viersions of minthreed.
 ## Utils
 
 * `ThreeDControls.enable(value : boolean)` - To enable or disable orbit controls. By default while initialization orbit controls is disabled.
-* `ThreeDControls.reset()` -  
-* `ThreeDControls.enableZoom()` - 
-* `ThreeDControls.enablePan()` - 
+* `ThreeDControls.reset()` -  Resets the objects in the scene. 
+* `ThreeDControls.enableZoom(value: boolean)` - Enables zoom functionalities. 
+* `ThreeDControls.enablePan(value: boolean)` - Enables pan.
+* `ThreeDControls.rotationcontrols(x:number, y:number, z:number)` - Sets (x,y,z) rotation of the object.
+
+## Locking Axes
+
+* `ThreeDControls.dragOnY()` - Locks the rotation of object to only Y axis.
+* `ThreeDControls.dragOnX()` - Locks the rotation of object to only X axis.
 
 
+## Extra
 
+* `ThreeDControls.incOnY(value: boolean)` - Increments rotation on Y axis of the object.
+* `ThreeDControls.incOnX(value: boolean)` - Increments rotation on X axis of the object.
 
